@@ -52,7 +52,7 @@ if i != 0
   end 
   i += 1 
   end 
-array.sum
+
 end 
 
 
