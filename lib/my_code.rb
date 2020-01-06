@@ -43,7 +43,7 @@ def map_to_square(array)
     end 
     new_array
     end 
-def reduce_to_total(array)
+def reduce_to_total(array, start_position)
 i = 0 
 # if start_position 
 #   i = start_position
@@ -57,7 +57,7 @@ if i != 0
   end 
   i += 1 
   end 
-array.last
+array.last + start_position
 end 
 
 
