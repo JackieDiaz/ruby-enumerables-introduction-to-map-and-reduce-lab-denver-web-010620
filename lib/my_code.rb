@@ -61,6 +61,25 @@ array.last
 end 
 
 
+
+def reduce_to_total(array)
+i = 0 
+# if start_position 
+#   i = start_position
+# end 
+sum = array[i] + array[i-1]
+while i < array.length do 
+if i != 0
+  array[i] = array[i] + array[i-1]
+    # else 
+    # array[i] = array[i] + array[i-1]
+  end 
+  i += 1 
+  end 
+array.last
+end 
+
+
 # y = 0
 # array.each do |x|
 # y = x + x 
