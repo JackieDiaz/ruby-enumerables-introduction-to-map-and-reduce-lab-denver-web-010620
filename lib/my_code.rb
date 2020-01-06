@@ -49,8 +49,8 @@ sum = array[i] + array[i-1]
 while i < array.length do 
 if i != 0
   array[i] = array[i] + array[i-1]
-    else 
-    array[i] = array[i] + array[i-1]
+    # else 
+    # array[i] = array[i] + array[i-1]
   end 
   i += 1 
   end 
